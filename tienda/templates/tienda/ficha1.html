@@ -1,0 +1,28 @@
+{% extends "tienda/base.html" %}
+{% load static %}
+
+{% block title %} Ficha {% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-4 mb-4">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto text-center">
+            <img id="imagen" src="" alt="" class="card-img-top cartaGrande">
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto cartaGrande">
+            <h5 id="Modelo"></h5>
+            <h5 id="Marca"></h5>
+            <h5 id="Año"></h5>
+            <h5 id="Transmision"></h5>
+            <h5 id="Motor"></h5>
+            <h5 id="Frenos"></h5>
+            <h5 id="Velocidades"></h5>
+            <h5 id="Stock"></h5>
+            <h5 id="Precio"></h5>
+            <button class="boton-agregar"><a  href="{% url 'tienda' %}">Volver</a></button>
+            <button class="boton-agregar" id="btnAgregar">Comprar</button>                    
+        </div>
+    </div>
+</div>
+
+{% endblock %}
