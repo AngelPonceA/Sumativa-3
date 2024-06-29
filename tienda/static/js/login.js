@@ -37,8 +37,8 @@ btnRegistrar.addEventListener("click", (e) => {
 
 
 /* Ingreso */ 
-let bUsser = document.getElementById("emailR");
-let bPass = document.getElementById("claveR");
+let bUsser = document.getElementById("emailI");
+let bPass = document.getElementById("claveI");
 
 let btnIngresar = document.getElementById("btnIngresar");
 
@@ -56,6 +56,4 @@ btnIngresar.addEventListener("click", (e) => {
         alert("Falta Contraseña")
         return;
     };
-
-    registro(usser, name, pass); // Llamar a la función login definida en login.js
 });

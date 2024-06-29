@@ -4,27 +4,31 @@
 {% block title %} Ingreso {% endblock %}
 
 {% block content %}
-    <main class="bg-login">
-        <form>
-            <div class="formato_reg_ing_container row mx-0">
-                <div class="formato_reg_ing col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 my-2">
-                    <H2>INGRESAR</H2>
-                    <label for="emailI">EMAIL</label>
-                    <input class="form-control" type="email" id="emailI" placeholder="Ingrese su correo">
-                    <label for="claveI">CLAVE</label>
-                    <input class="form-control" type="password" id="claveI" placeholder="Ingrese su contraseña">
-                    <button id="btnIngresar" type="submit">CONTINUAR</button>
-                </div>
-                <div class="formato_reg_ing col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 my-2">
-                    <H2>REGISTRAR</H2>
-                    <label for="nombreR">NOMBRE</label>
-                    <input class="form-control" type="text" id="nombreR" placeholder="Ingrese su nombre">
-                    <label for="emailR">EMAIL</label>
-                    <input class="form-control" type="email" id="emailR" placeholder="Ingrese su correo">
-                    <label for="claveR">CLAVE</label>         
-                    <input class="form-control" type="password" id="claveR" placeholder="Ingrese una contraseña">
-                    <button id="btnRegistrar" type="submit">CONTINUAR</button>
-                </div>
+<main class="bg-login">
+    <form>
+        <div class="formato_reg_ing_container row mx-0">
+            <div class="formato_reg_ing col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 my-2">
+                <H2>INGRESAR</H2>
+                <label for="emailI">EMAIL</label>
+                <input class="form-control" type="email" id="emailI" placeholder="Ingrese su correo">
+                <label for="claveI">CLAVE</label>
+                <input class="form-control" type="password" id="claveI" placeholder="Ingrese su contraseña">
+                <button id="btnIngresar" type="submit">CONTINUAR</button>
             </div>
-        </form>
+            <div class="formato_reg_ing col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 my-2">
+                <H2>REGISTRAR</H2>
+                <label for="nombreR">NOMBRE</label>
+                <input class="form-control" type="text" id="nombreR" placeholder="Ingrese su nombre">
+                <label for="emailR">EMAIL</label>
+                <input class="form-control" type="email" id="emailR" placeholder="Ingrese su correo">
+                <label for="claveR">CLAVE</label>         
+                <input class="form-control" type="password" id="claveR" placeholder="Ingrese una contraseña">
+                <button id="btnRegistrar" type="submit">CONTINUAR</button>
+            </div>
+        </div>
+    </form>
+</main>
+
+    <script type="module" src="{% static 'js/login.js'%}"></script>
+
 {% endblock %}

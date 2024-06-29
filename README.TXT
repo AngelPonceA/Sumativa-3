@@ -1,0 +1,2 @@
+Lo trabajado en el proyecto 2 está en la carpeta TIENDA, busca autos, registra en la api y redirecciona, falta autenticar y lo del pillow
+También falta hacer otra tabla en MODELS de la carpeta clientes

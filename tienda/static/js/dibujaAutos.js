@@ -1,6 +1,6 @@
 import {agregarAuto, eliminarAuto} from "./operacionBotones.js"
 
-const rutaDocumento = '../vistas/ficha1.html';
+const rutaDocumento = '/tienda/ficha/';
 
 export const crearTarjetas = async ( results = [] ) => {
 
